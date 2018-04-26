@@ -1,0 +1,66 @@
+
+import java.util.Scanner;
+
+public class Medication {
+    public static void main(String[] args) {
+             int p = 0,i;
+             int n;
+             int x;
+        
+       PrescribingMedication[] obj1=new PrescribingMedication[100];
+        do{
+            
+            Scanner sc=new Scanner(System.in);
+            System.out.println("What do you want to do?\n1.Current medication\n2.New medication\n3.Formulary\n4.Exit");
+            n=sc.nextInt();
+            switch(n){
+                case 1:
+                    System.out.println("Please select category");
+                    System.out.println("1.Check the dose\n2.Change the dose");
+                    int m = sc.nextInt();
+            switch(m){//INPUT INFORMATION
+                case 1:
+                    System.out.println("Check Dose info");
+                    System.out.println("How many Dose you want to input?");
+                    p=sc.nextInt();
+                    for(i=1;i<=p;i++){
+                    obj[i]=new PrescribingMedication();
+                    }
+                    break;
+                case 2:
+                    System.out.println("Change Does info");
+                    System.out.println("How many dose you want to input?");
+                    for(i=1;i<=p;i++){
+                    obj[i]=new PrescribingMedication();	
+                    }
+                    break;
+            }
+            break;      
+                case 2://DISPLAY INFORMATION
+                    System.out.println("1.Display the Check of the dose \n2.Display the Change of the dose  ");
+                    int z = sc.nextInt();
+                    switch(z){
+                case 1:                            
+                    System.out.println("Check doses inputted data by the user");
+                    for(i=1;i<=p;i++){
+                    obj[i].display_genus_species();
+                    f[i].sub_display();
+                    }
+                    break;
+                    case 2:                            
+                    System.out.println("Change inputted data by the user");
+                    for(i=1;i<=p;i++){
+                    obj1[i].display_sexual_dimorphism();
+                    f[i].sub_display();
+                    }
+                    break;           
+            }
+                
+            }
+            
+        }while(n!=0);
+      
+    }
+    
+    
+}
