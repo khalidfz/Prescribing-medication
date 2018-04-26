@@ -1,4 +1,4 @@
-
+//Khalid Hasan
 import java.util.Scanner;
 
 public class Medication {
