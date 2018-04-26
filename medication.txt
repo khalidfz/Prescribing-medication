@@ -40,8 +40,7 @@ public class Medication {
                     System.out.println("1.Display the Check of the dose \n2.Display the Change of the dose  ");
                     int z = sc.nextInt();
                     switch(z){
-                     obj[i]=new PrescribingMedication();	
-                    }
+                     
                     
                 case 1:                            
                     System.out.println("Check doses inputted data by the user");
