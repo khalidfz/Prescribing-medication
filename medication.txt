@@ -32,6 +32,7 @@ public class Medication {
                     System.out.println("How many dose you want to input?");
                     for(i=1;i<=p;i++){
                     obj[i]=new PrescribingMedication();	
+                    }
                      break;
                
             }
