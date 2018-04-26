@@ -1,6 +1,6 @@
 
 import java.util.Scanner;
-//tanjina 
+
 public class Medication {
     public static void main(String[] args) {
              int p = 0,i;
@@ -27,26 +27,23 @@ public class Medication {
                     obj[i]=new PrescribingMedication();
                     }
                     break;
-                    case 2:
-                    System.out.println("Change Dose information");
+                case 2:
+                    System.out.println("Change Does info");
                     System.out.println("How many dose you want to input?");
                     for(i=1;i<=p;i++){
                     obj[i]=new PrescribingMedication();	
                     }
-                     break;
-               
+                    break;
             }
             break;      
                 case 2://DISPLAY INFORMATION
                     System.out.println("1.Display the Check of the dose \n2.Display the Change of the dose  ");
                     int z = sc.nextInt();
                     switch(z){
-                     
-                    
                 case 1:                            
                     System.out.println("Check doses inputted data by the user");
                     for(i=1;i<=p;i++){
-                    obj[i].display_genus_species();
+                    obj[i].display_dose_quantity();
                     f[i].sub_display();
                     }
                     break;
