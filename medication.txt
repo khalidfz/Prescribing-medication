@@ -30,6 +30,7 @@ public class Medication {
                     case 2:
                     System.out.println("Change Does info");
                     System.out.println("How many dose you want to input?");
+                    for(i=1;i<=p;i++){
                
             }
             break;      
