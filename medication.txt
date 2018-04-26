@@ -1,6 +1,6 @@
 
 import java.util.Scanner;
-
+//tanjina 
 public class Medication {
     public static void main(String[] args) {
              int p = 0,i;
