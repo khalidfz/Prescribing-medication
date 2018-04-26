@@ -27,6 +27,8 @@ public class Medication {
                     obj[i]=new PrescribingMedication();
                     }
                     break;
+                    case 2:
+                    System.out.println("Change Does info");
                
             }
             break;      
