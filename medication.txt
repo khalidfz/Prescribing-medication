@@ -18,7 +18,7 @@ public class Medication {
                     System.out.println("Please select category");
                     System.out.println("1.Check the dose\n2.Change the dose");
                     int m = sc.nextInt();
-            switch(m){//INPUT INFORMATION
+            switch(m){//INPUT INFORMATION for medication
                 case 1:
                     System.out.println("Check Dose info");
                     System.out.println("How many Dose you want to input?");
@@ -36,7 +36,7 @@ public class Medication {
                     break;
             }
             break;      
-                case 2://DISPLAY INFORMATION
+                case 2://DISPLAY INFORMATION for medication
                     System.out.println("1.Display the Check of the dose \n2.Display the Change of the dose  ");
                     int z = sc.nextInt();
                     switch(z){
