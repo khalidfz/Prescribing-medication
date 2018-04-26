@@ -41,14 +41,14 @@ public class Medication {
                     int z = sc.nextInt();
                     switch(z){
                 case 1:                            
-                    System.out.println("Check doses inputted data by the user");
+                    System.out.println("Check doses inputted data by the user");//Check the dose
                     for(i=1;i<=p;i++){
                     obj[i].display_dose_quantity();
                     f[i].sub_display();
                     }
                     break;
                     case 2:                            
-                    System.out.println("Change inputted data by the user");
+                    System.out.println("Change inputted data by the user");//Change the dose
                     for(i=1;i<=p;i++){
                     obj1[i].display_sexual_dimorphism();
                     f[i].sub_display();
