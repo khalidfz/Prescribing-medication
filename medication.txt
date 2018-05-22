@@ -48,7 +48,7 @@ public class Medication {
                     }
                     break;
                     case 2:                            
-                   
+                   System.out.println("Change inputted data by the user");//Change the dose
                     for(i=1;i<=p;i++){
                     obj1[i].display_sexual_dimorphism();
                     f[i].sub_display();
