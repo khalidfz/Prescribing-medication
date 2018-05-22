@@ -48,7 +48,7 @@ public class Medication {
                     }
                     break;
                     case 2:                            
-                    
+                    System.out.println("");
                     for(i=1;i<=p;i++){
                     obj1[i].display_sexual_dimorphism();
                     f[i].sub_display();
